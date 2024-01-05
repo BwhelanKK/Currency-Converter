@@ -16,16 +16,36 @@ body {
 }
 
 .mainArea {
-    display: flex;
-    justify-content: center;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   font-size: 1.5rem;
 }
 
 .enterAmount {
-    font-size: 1.5rem;
-   display: block;
+    padding: 3rem 0;
+}
+
+#amount {
+    width: 600px;
+    height: 2em;
 }
 
 .convertArea {
     display: flex;
+    flex-direction: row;
+    width: 600px;
+    height: 2em;
 }
+
+#convertfrom {
+    justify-content: ;
+}
+
+.btn-convert {
+    width: 600px;
+    height: 2em;
+    border-radius: 5px;
+}
+
 

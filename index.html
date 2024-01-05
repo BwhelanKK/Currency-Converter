@@ -17,14 +17,24 @@
     <div class="mainArea">
       <div class="enterAmount">
         <label for="amount" id="amount">Enter Amount:</label><br>
-        <input type="number" name="amount" id="amount">
+        <input type="number" name="amount" id="amount" value="0">
       </div>
 
       <div class="convertArea">
         <label for="convertFrom" id="convertFrom">From:</label><br>
-        <input type="text" name="convertFrom" id="convertFrom">
+        <select name="convertFrom" id="convertFrom">
+          <option value="">>--Choose Currency--</option>
+          <option value="usd">USD</option>
+          <option value="aud">AUD</option>
+        </select>
+
         <label for="convertTo" id="convertTo">To:</label><br>
-        <input type="text" name="convertTo" id="convertTo">
+        <select name="convertTo" id="convertTo">
+          <option value="">>--Choose Currency--</option>
+          <option value="usd">USD</option>
+          <option value="aud">AUD</option>
+        </select>
+
         <button class="btn-convert">Convert:</button>
       </div>
 
