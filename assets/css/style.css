@@ -2,25 +2,30 @@
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    
 }
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-image: url('/assets/images/bg-image.webp');
-    color: white;
-    height: 60%;
-    width: 70%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+}
+
+.header {
+    font-size: 2.5rem;
+    padding: 1rem .5rem;
+    display: flex;
+    justify-content: center;
 }
 
 .mainArea {
-    background-image: url('/assets/images/bg-image.webp');
-    color: white;
-    height: 60%;
-    width: 70%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    display: flex;
+    justify-content: center;
 }
+
+.enterAmount {
+    font-size: 1.5rem;
+   display: block;
+}
+
+.convertArea {
+    display: flex;
+}
+
