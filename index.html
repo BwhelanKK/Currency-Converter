@@ -11,7 +11,7 @@
 <!-- Header section -->
     <div class="header">
       <i class="fa-solid fa-coins"></i>
-      </h1>Currency Converter</h1>
+      <h1>Currency Converter</h1>
     </div>
 
     <div class="mainArea">
@@ -21,22 +21,26 @@
       </div>
 
       <div class="convertArea">
-        <label for="convertFrom" id="convertFrom">From:</label><br>
-        <select name="convertFrom" id="convertFrom">
-          <option value="">>--Choose Currency--</option>
-          <option value="usd">USD</option>
-          <option value="aud">AUD</option>
-        </select>
+        <div class="currencyFrom">
+          <label for="convertFrom" id="convertFrom">From:</label><br>
+          <select name="convertFrom" id="convertFrom">
+            <option value="">>--Choose Currency--</option>
+            <option value="usd">USD</option>
+            <option value="aud">AUD</option>
+          </select>
+        </div>
 
+        <div class="currencyTo">
         <label for="convertTo" id="convertTo">To:</label><br>
         <select name="convertTo" id="convertTo">
           <option value="">>--Choose Currency--</option>
           <option value="usd">USD</option>
           <option value="aud">AUD</option>
         </select>
-
-        <button class="btn-convert">Convert:</button>
       </div>
+    </div>
+
+      <button class="btn-convert">Convert:</button>
 
     <div class="resultArea"></div>
     
