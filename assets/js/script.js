@@ -3,38 +3,33 @@
 document.addEventListener('DOMContentLoaded', function () {
 
 
-    let convert = toConvert();
-    let exchange = selectCurrency();
-    let final = calculateCurrency();
-
-    document.getElementById('amount-entered').addEventListener('keyup', toConvert);
-    document.getElementById('convertTo').addEventListener('change', selectCurrency);
+    document.getElementById('amount-entered').addEventListener('input', toConvert);
+    document.getElementById('convertTo').addEventListener('input', selectCurrency);
+    document.getElementById('convert').addEventListener('click', calculateCurrency);
 
 });
 
 // //Capture amount entered
 function toConvert() {
-    let amount = document.getElementById('amount-entered').value;
-    return amount;
+    let amount1 = document.getElementById('amount-entered').value;
+    return amount1;
 }
-
 //Capture the currency selected
 function selectCurrency() {
-    let rate = document.getElementById('convertTo');
-    return rate;
+    let amount2 = document.getElementById('convertTo').value;
+    return amount2;
+
 }
 
 //Calculate new rate
 function calculateCurrency() {
-    let amount = document.getElementById('amount-entered').value;
-    let rate = document.getElementById('convertTo');
+    let amount1 = toConvert();
+    let amount2 = selectCurrency();
 
-    let conversion = amount * rate;
-    return conversion;
-}
-function displayText() {
-    var text = document.getElementById("textField");
-    text.style.display = "block";
+    let getResult = amount1 * amount2;
+    getResult.toFixed(2);
+
+    document.getElementById('converted-amount').value = getResult;
 }
 
 
