@@ -10,6 +10,15 @@ I wanted to make this as simple as possible.  I created a wireframe to visualise
 
 ![CurrencyPal](https://github.com/BwhelanKK/Currency-Converter/assets/44683806/f4c103f7-90ca-4c9c-8f41-62987755454d)
 
-There is no navigation or other utilities, just a simple screen that has all the essentials
+There are no navigation or other utilities, just a simple screen that has all the essentials.
+
+## Features Left to Implement
+
+The currencies were included as a mockup to highlight how it works.  I would like to include a currency API that would update the full range of currencies with current rates.
+
+## Testing 
+
+This has been tested in Chrome, Firefox, Edge and Opera.
+
 
 
