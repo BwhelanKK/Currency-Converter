@@ -20,5 +20,29 @@ The currencies were included as a mockup to highlight how it works.  I would lik
 
 This has been tested in Chrome, Firefox, Edge and Opera.
 
+### Validator Testing
+
+- HTML
+ - No errors wre detected when passed through the W3C HTML Validator.
+- CSS
+  - No errors were detected when passed through the W3C CSS Jigsaw validator.
+- Accessability
+  - I used Lighthouse in the Chrome DevTool console:
+       
+[Lighthouse score.pdf](https://github.com/BwhelanKK/Currency-Converter/files/13933188/Lighthouse.score.pdf)
+
+### Unfixed Bugs
+
+I have just noticed that some of the results aremore than 2 decimal places.  I will look into the cause and rectify this.
+
+## Deployment
+
+- This was deployed to Github pages.  The steps involved in deployment are:
+  - In Github, navigate to the correct repository.
+  - Select 'Settings' in the main navigation bar.
+  - From the source section drop down menu, select 'Master Branch'.
+  - The live link will now be available.
+The live link can be found here:
+
 
 
