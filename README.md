@@ -10,7 +10,7 @@ I wanted to make this as simple as possible.  I created a wireframe to visualise
 
 ![CurrencyPal](https://github.com/BwhelanKK/Currency-Converter/assets/44683806/f4c103f7-90ca-4c9c-8f41-62987755454d)
 
-There are no navigation or other utilities, just a simple screen that has all the essentials.
+There are no navigation or other utilities, just a simple screen that has all the essentials.  I added a refresh button to provide the user with a clean, simple way to enter another conversion.
 
 ## Features Left to Implement
 
