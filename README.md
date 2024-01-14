@@ -28,7 +28,6 @@ This has been tested in Chrome, Firefox, Edge and Opera.
   - No errors were detected when passed through the W3C CSS Jigsaw validator.
 - Accessability
   - I used Lighthouse in the Chrome DevTool console:
-  - 
   ![Light](https://github.com/BwhelanKK/Currency-Converter/assets/44683806/13949020-a8c1-4051-b16c-6d60c30170e2)
 
 
@@ -43,7 +42,13 @@ I have just noticed that some of the results aremore than 2 decimal places.  I w
   - Select 'Settings' in the main navigation bar.
   - From the source section drop down menu, select 'Master Branch'.
   - The live link will now be available.
-The live link can be found here:
+The live link can be found here: https://bwhelankk.github.io/Currency-Converter/
+
+## Credits
+
+### Content
+- The heading Icon was provided by Font Awesome.
+- Fonts used were from google Fonts.
 
 
 
