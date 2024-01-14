@@ -74,15 +74,21 @@ select {
     flex-direction: row;
     justify-content: space-between;
     width: 600px;
-    height: 2em;
+    height: 4em;
 }
 
 .convertArea select {
     width: 250px;
 }
 
-.btn-convert {
+.button-container {
+    display: flex;
     width: 600px;
+    justify-content: space-between;
+}
+
+.btn-convert {
+    width: 250px;
     height: 2em;
     border-radius: 10px;
     margin: 4rem 0;
@@ -90,9 +96,12 @@ select {
     font-weight: 400;
     background-color: rgb(34, 63, 62);
     color: white;
-    ;
 }
 
+button:hover {
+    background-color: white;
+    color: rgb(34, 63, 62);
+}
 button:hover {
     background-color: white;
     color: rgb(34, 63, 62);
@@ -115,8 +124,12 @@ button:hover {
         width: 150px;
     }
 
-    .btn-convert {
+    .button-container {
         width: 400px;
+    }
+
+    .btn-convert {
+        width: 150px;
         height: 2em;
         border-radius: 10px;
         margin: 4rem 0;
@@ -143,8 +156,12 @@ button:hover {
         width: 100px;
     }
 
-    .btn-convert {
+    .button-container {
         width: 300px;
+    }
+
+    .btn-convert {
+        width: 100px;
         height: 2em;
         border-radius: 10px;
         margin: 4rem 0;
