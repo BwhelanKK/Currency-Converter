@@ -2,17 +2,38 @@
 * {
     padding: 0;
     margin: 0;
+
 }
 
 /* General formatting */
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-color:
+}
+
+h1,
+h2,
+h3,
+label {
+    color: rgb(55, 51, 51);
+}
+
+.mainArea {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5rem;
+    background-color: lightblue;
+    height: auto;
+    padding: 0 150px;
+
 }
 
 input,
 select {
     height: 3em;
     border-radius: 10px;
+    border-width: 2px;
 }
 
 .header {
@@ -28,17 +49,20 @@ select {
     margin: 1rem;
 }
 
-.mainArea {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: 1.5rem;
-}
+
 
 .enterAmount {
     padding: 3rem 0;
     border-radius: 10px;
     height: 2em;
+}
+
+.space {
+    padding-left: 10px;
+}
+
+.finalAmount {
+    margin-bottom: 100px;
 }
 
 #amount-entered,
@@ -65,6 +89,70 @@ select {
     margin: 4rem 0;
     font-size: 1.5rem;
     font-weight: 400;
+    background-color: rgb(34, 63, 62);
+    color: white;
+    ;
+}
+
+button:hover {
+    background-color: white;
+    color: rgb(34, 63, 62);
+}
+
+
+@media (max-width: 650px) {
+
+    #amount-entered,
+    #converted-amount {
+        width: 400px;
+    }
+
+    .convertArea {
+        width: 400px;
+        height: 2em;
+    }
+
+    .convertArea select {
+        width: 150px;
+    }
+
+    .btn-convert {
+        width: 400px;
+        height: 2em;
+        border-radius: 10px;
+        margin: 4rem 0;
+        font-size: 1.5rem;
+        font-weight: 400;
+    }
+
+
+}
+
+@media (max-width: 450px) {
+
+    #amount-entered,
+    #converted-amount {
+        width: 300px;
+    }
+
+    .convertArea {
+        width: 300px;
+        height: 2em;
+    }
+
+    .convertArea select {
+        width: 100px;
+    }
+
+    .btn-convert {
+        width: 300px;
+        height: 2em;
+        border-radius: 10px;
+        margin: 4rem 0;
+        font-size: 1.5rem;
+        font-weight: 400;
+    }
+
 }
 
 
