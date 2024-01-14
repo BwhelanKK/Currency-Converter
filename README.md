@@ -1,39 +1,15 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Currency Converter
 
-Welcome,
+The currency converter was created as a simple converter that would give the user a quick and easy way of checking curency conversation rates for a specified amount.  It is the starting point of a project I will continue to work on and add more features.
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![Currency Converter ](https://github.com/BwhelanKK/Currency-Converter/assets/44683806/e1db2ec0-b0eb-40e9-a8b1-ee9110757dc9)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+## Design
 
-## Codeanywhere Reminders
+I wanted to make this as simple as possible.  I created a wireframe to visualise how it would look and to ensure that everything was accessable:
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+![CurrencyPal](https://github.com/BwhelanKK/Currency-Converter/assets/44683806/f4c103f7-90ca-4c9c-8f41-62987755454d)
 
-`python3 -m http.server`
+There is no navigation or other utilities, just a simple screen that has all the essentials
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
-
-`http_server`
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
----
-
-Happy coding!
