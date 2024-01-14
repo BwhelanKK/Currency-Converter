@@ -18,25 +18,32 @@
 
     <div class="mainArea">
         <div class="enterAmount">
-            <label for="amount-entered" id="amount-entered">Enter Amount:</label><br>
-            <input type="amount-entered" name="amount-entered" id="amount-entered" placeholder="0.00">
+            <label for="amount">Enter Amount:</label><br>
+            <input type="number" name="amount" id="amount-entered" placeholder="0.00" class="space">
         </div>
 
         <div class="convertArea">
             <div class="currencyFrom">
-                <label for="convertFrom" id="convertFrom">Base:</label><br>
+                <label for="convertFrom">Base:</label><br>
                 <select name="convertFrom" id="convertFrom">
-                    <!-- <option value="">>--Choose Currency--</option> -->
                     <option value="1">EUR</option>
+                    <option value="0.86">GBP</option>
+                    <option value="1.62">AUD</option>
+                    <option value="1.09">USD</option>
+                    <option value="0.95">CHF</option>
+                    <option value="4.34">PLN</option>
+                    <option value="11.13">SEK</option>
+                    <option value="91.06">INR</option>
+                    <option value="7.81">CNY</option>
+                    <option value="157.12">JPY</option>
                 </select>
             </div>
 
             <div class="currencyTo">
-                <label for="convertTo" id="convertTo">To:</label><br>
+                <label for="convertTo">To:</label><br>
                 <select name="convertTo" id="convertTo">
-                    <option value="">>--Choose Currency--</option>
                     <option value="1">EUR</option>
-                    <option value=".86">GBP</option>
+                    <option value="0.86">GBP</option>
                     <option value="1.62">AUD</option>
                     <option value="1.09">USD</option>
                     <option value="0.95">CHF</option>
@@ -53,15 +60,15 @@
 
 
         <div class="finalAmount">
-            <label for="converted-amount" id="converted-amount">Amount Converted:</label><br>
-            <input type="text" name="converted-amount" id="converted-amount">
+            <label for="converted">Amount Converted:</label><br>
+            <input type="number" id="converted-amount" class="space" placeholder="0.00">
         </div>
 
-        <button onclick="toConvert()">Click Me!</button>
+        <!-- <button onclick="toConvert()">Click Me!</button>
 
         <div id="textField" style="display: none;">
             This is the text that appears when you click the button.
-        </div>
+        </div> -->
 
 
         <!-- Font Awesome  -->
