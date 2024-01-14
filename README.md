@@ -28,8 +28,9 @@ This has been tested in Chrome, Firefox, Edge and Opera.
   - No errors were detected when passed through the W3C CSS Jigsaw validator.
 - Accessability
   - I used Lighthouse in the Chrome DevTool console:
-       
-[Lighthouse score.pdf](https://github.com/BwhelanKK/Currency-Converter/files/13933188/Lighthouse.score.pdf)
+  - 
+  ![Light](https://github.com/BwhelanKK/Currency-Converter/assets/44683806/13949020-a8c1-4051-b16c-6d60c30170e2)
+
 
 ### Unfixed Bugs
 
